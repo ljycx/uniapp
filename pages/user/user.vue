@@ -66,8 +66,8 @@
 				<!-- #endif -->
 			</view>
 		</view>
-		<view class="section" @click="goPageSubscribe">
-			<view class="sectionItem">
+		<view class="section">
+			<view class="sectionItem" @click="goPageSubscribe">
 				<view class="left">
 					<uni-icons type="notification-filled" size="30"></uni-icons>
 					<view class="text">

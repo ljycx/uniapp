@@ -71,16 +71,16 @@ const _sfc_main = {
           type: "right",
           size: "20"
         }),
-        o: common_vendor.p({
+        o: common_vendor.o(goPageSubscribe),
+        p: common_vendor.p({
           type: "help-filled",
           size: "30"
         }),
-        p: common_vendor.p({
+        q: common_vendor.p({
           type: "right",
           size: "20"
         }),
-        q: common_vendor.o(goPageQuestion),
-        r: common_vendor.o(goPageSubscribe)
+        r: common_vendor.o(goPageQuestion)
       } : {});
     };
   }
