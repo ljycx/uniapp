@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-top-bar": "../../components/custom-top-bar/custom-top-bar",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-dateformat": "../../uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "common-title": "../../components/common-title/common-title",
+    "theme-item": "../../components/theme-item/theme-item"
+  }
+}

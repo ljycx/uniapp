@@ -1,0 +1,195 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.previewLayout.data-v-2dad6c07 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.previewLayout .content.data-v-2dad6c07 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.previewLayout .content swiper.data-v-2dad6c07 {
+  width: 100%;
+  height: 100%;
+}
+.previewLayout .content swiper-item image.data-v-2dad6c07 {
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+}
+.previewLayout .content .mask.data-v-2dad6c07 {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 150rpx;
+}
+.previewLayout .content .mask .goback.data-v-2dad6c07 {
+  align-self: start;
+  width: 70rpx;
+  height: 70rpx;
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: auto;
+}
+.previewLayout .content .mask .pic-idx.data-v-2dad6c07 {
+  color: #e4e4e4;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: -webkit-fit-content;
+  width: fit-content;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 20rpx;
+  border-radius: 60rpx;
+}
+.previewLayout .content .mask .time.data-v-2dad6c07 {
+  font-size: 110rpx;
+  color: white;
+}
+.previewLayout .content .mask .date.data-v-2dad6c07 {
+  color: #e4e4e4;
+  margin-top: 5rpx;
+}
+.previewLayout .content .mask .footer.data-v-2dad6c07 {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 500rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  padding: 0 40rpx;
+}
+.previewLayout .content .mask .footer .message.data-v-2dad6c07,
+.previewLayout .content .mask .footer .score.data-v-2dad6c07,
+.previewLayout .content .mask .footer .download.data-v-2dad6c07 {
+  padding: 0 20rpx;
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rpx;
+  font-size: 26rpx;
+}
+.previewLayout .content .popup.data-v-2dad6c07 {
+  background-color: #fff;
+  border-radius: 20rpx 20rpx 0 0;
+  padding: 30rpx;
+}
+.previewLayout .content .popup .header.data-v-2dad6c07 {
+  display: flex;
+}
+.previewLayout .content .popup .header .close.data-v-2dad6c07 {
+  width: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx;
+}
+.previewLayout .content .popup .header .title.data-v-2dad6c07 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a7a7a7;
+}
+.previewLayout .content .popup .container.data-v-2dad6c07 {
+  max-height: 60vh;
+}
+.previewLayout .content .popup .container .row.data-v-2dad6c07 {
+  display: flex;
+  margin-top: 30rpx;
+}
+.previewLayout .content .popup .container .row .laber.data-v-2dad6c07 {
+  width: 140rpx;
+  text-align: right;
+  color: #a7a7a7;
+}
+.previewLayout .content .popup .container .row text.data-v-2dad6c07 {
+  flex: 1;
+  padding-left: 15rpx;
+}
+.previewLayout .content .popup .container .row .text.data-v-2dad6c07 {
+  flex-direction: 1;
+  padding-left: 15rpx;
+}
+.previewLayout .content .popup .container .copyright.data-v-2dad6c07 {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-top: 30rpx;
+  padding: 20rpx;
+}
+.previewLayout .content .scorePopup.data-v-2dad6c07 {
+  background-color: #fff;
+  border-radius: 30rpx;
+  width: 70vw;
+  padding: 30rpx;
+}
+.previewLayout .content .scorePopup .header.data-v-2dad6c07 {
+  display: flex;
+}
+.previewLayout .content .scorePopup .header .close.data-v-2dad6c07 {
+  width: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx;
+}
+.previewLayout .content .scorePopup .header .title.data-v-2dad6c07 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a7a7a7;
+}
+.previewLayout .content .scorePopup .container.data-v-2dad6c07 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30rpx;
+}
+.previewLayout .content .scorePopup .container .rate.data-v-2dad6c07 {
+  margin-top: 30rpx;
+  display: flex;
+  gap: 30rpx;
+}
+.previewLayout .content .scorePopup .container .rate .rateValue.data-v-2dad6c07 {
+  color: #feca42;
+}
